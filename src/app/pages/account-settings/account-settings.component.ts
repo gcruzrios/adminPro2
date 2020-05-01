@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 //import { DOCUMENT } from '@angular/platform-browser';
 
-import { link } from 'fs';
+//import { link } from 'fs';
 import { SettingsService } from '../../services/service.index';
 
 @Component({
