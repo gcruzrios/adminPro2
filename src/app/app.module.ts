@@ -17,6 +17,7 @@ import { PagesModule } from './pages/pages.module';
 //import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServiceModule} from './services/service.module';
+//import { ModalUploadComponent } from './components/modal-upload/modal-upload.component';
 //import { ImagenPipe } from './pipes/imagen.pipe';
 
 
@@ -25,6 +26,7 @@ import { ServiceModule} from './services/service.module';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    //ModalUploadComponent,
     //ImagenPipe,
     //IncrementadorComponent
        
