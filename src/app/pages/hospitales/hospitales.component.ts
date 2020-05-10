@@ -66,11 +66,13 @@ export class HospitalesComponent implements OnInit {
     swal({
       title:'Crear Hospitales',
       text:'Ingrese el nombre del Hospital',
-      content:"input",
+      content: {element: "input" },
+      //content:"input",
+      //type: "input",
       icon: 'info',
       buttons:{cancel:true,confirm:true},
       
-      DangerMode: true,
+      //DangerMode: true,
     }).then ((valor:string )=>{
 
       if (!valor || valor.length ===0 ){

@@ -7,7 +7,8 @@ import {  SettingsService,
           SidebarService, 
           SharedService, 
           UsuarioService, 
-          LoginGuardGuard, 
+          LoginGuardGuard,
+          AdminGuard, 
           SubirArchivoService, 
           HospitalService,
           MedicoService
@@ -30,6 +31,7 @@ import {  SettingsService,
     HospitalService,
     MedicoService,
     LoginGuardGuard,
+    AdminGuard,
     SubirArchivoService,
     ModalUploadService
   ]
