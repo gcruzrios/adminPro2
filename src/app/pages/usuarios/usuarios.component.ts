@@ -93,12 +93,14 @@ export class UsuariosComponent implements OnInit {
       title: 'Está seguro?',
       text: 'Va a borrar a : ' + usuario.nombre,
       icon: 'warning',
-      buttons: true,
+
+      buttons:{cancel:true,confirm:true},
+      //buttons: true,
       dangerMode: true,
     })
     .then((borrar) => {
 
-      //console.log(borrar);
+      console.log(borrar);
       if (borrar) {
 
         this._usuarioService.borrarUsuario(usuario._id)
