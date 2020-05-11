@@ -17,6 +17,8 @@ import { PagesModule } from './pages/pages.module';
 //import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServiceModule} from './services/service.module';
+import { PagesComponent } from './pages/pages.component';
+import { SharedModule } from './shared/shared.module';
 //import { ModalUploadComponent } from './components/modal-upload/modal-upload.component';
 //import { ImagenPipe } from './pipes/imagen.pipe';
 
@@ -26,6 +28,7 @@ import { ServiceModule} from './services/service.module';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    PagesComponent
     //ModalUploadComponent,
     //ImagenPipe,
     //IncrementadorComponent
@@ -33,11 +36,12 @@ import { ServiceModule} from './services/service.module';
   ],
   imports: [
     BrowserModule,
-    PagesModule,
+    //PagesModule,
     APP_ROUTES,
     FormsModule,
     ReactiveFormsModule,
-    ServiceModule
+    ServiceModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
